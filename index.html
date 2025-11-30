@@ -1,66 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head> <!-- ENCABEZADO DE LA PÁGINA -->
+<head>
+    <!-- ENCABEZADO DE LA PÁGINA -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Estilos -->
     <link rel="stylesheet" href="estilos.css">
-    <link rel="canonical" href="hylanKarcenty1.github.io">
+    
+    <!-- SEO -->
+    <link rel="canonical" href="https://hylanKarcenty1.github.io/">
     <meta name="robots" content="index,follow">
     <meta name="description"
-        content="PINCHA AQUI!! y encontrarás todas las sudaderas con Capucha y Hoodies, con un corte overside y enfocado a un estilo streetwear">
-    <meta name="subject" name="Sudaderas">
-    <meta name="copyright" name="Hylan Karcenty">
-    <meta name="language" name="español">
-    <meta name="author" name="Hylan Karcenty">
+        content="PINCHA AQUÍ!! y encontrarás todas las sudaderas con capucha y hoodies, con un corte oversize y estilo streetwear.">
+    <meta name="subject" content="Sudaderas">
+    <meta name="copyright" content="Hylan Karcenty">
+    <meta name="language" content="es">
+    <meta name="author" content="Hylan Karcenty">
+    
+    <!-- Icono de la página -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
     <title>RUFFAGE. Descubre tus Sudaderas Oversize Favoritas!!</title>
-    <link rel=" shorcut icon" href="favicon.ico" type="imagen/x-icon">
-    <link rel="stylesheet" href="sitemap.xml"> <!-- NO SE ME SUBE EN LA PAGINA NORMAL-->
 </head>
 
 <body>
-    <header> <!--Encabezado de la página-->
+    <!-- Encabezado principal -->
+    <header>
         <h1>RUFFAGE</h1>
-        <nav id="navegacion"> <!-- Navegacion -->
+
+        <!-- Navegación principal -->
+        <nav class="navegacion">
             <ul>
-                <li><a href="#Sudaderas¡">Sudaderas </a></li>
+                <li><a href="#Sudaderas">Sudaderas</a></li>
                 <li><a href="#Pantalones">Pantalones</a></li>
-                <li><a href="#Accesorios">Accesorios </a></li>
+                <li><a href="#Accesorios">Accesorios</a></li>
                 <li><a href="#Pie">Pie de Página</a></li>
             </ul>
         </nav>
-        <img src="imagenes/img1.jpg" height="500" width="500" alt="Drake tocandose la sudadera" class="Portada">
-        <img src="imagenes/img4.jpg" height="500" width="450" alt="Accesorios de plata, anillos en mano"
-            class="Portada">
-        <img src="imagenes/img2.webp" height="500" width="420" alt="Chico de espalda con sudadera blanca"
-            class="Portada">
+
+        <!-- Imágenes de portada -->
+        <div class="portada-container">
+            <img src="imagenes/img1.jpg" alt="Drake tocándose la sudadera" class="Portada">
+            <img src="imagenes/img4.jpg" alt="Accesorios de plata, anillos en mano" class="Portada">
+            <img src="imagenes/img2.webp" alt="Chico de espalda con sudadera blanca" class="Portada">
+        </div>
     </header>
-    <main> <!--Contenido de la página-->
+
+    <!-- Contenido principal -->
+    <main>
         <section id="Sudaderas">
             <h2>Sudaderas</h2>
-
+            <div class="Productos">
+                <a href="Sudaderas/sudadera1.html" title="sudadera azul marino">
+                    <img src="imagenes/sudadera1/delante.webp" alt="Sudadera azul marino con estampado en la espalda">
+                </a>
+            </div>
         </section>
+
         <section id="Pantalones">
             <h2>Pantalones</h2>
         </section>
+
         <section id="Accesorios">
             <h2>Accesorios</h2>
         </section>
     </main>
-    <footer> <!--Pie de la página principal-->
-        <nav>
-            <section id="Pie">
-                <h3>Pie de página</h3>
-            </section>
 
-            <ol>
-                <li>Politica de privacidad</li>
-                <li>Contacto</li>
-                <li>Quienes somos</li>
-            </ol>
-        </nav>
+    <!-- Pie de página -->
+    <footer id="Pie">
+        <h3>Pie de página</h3>
+        <ol>
+            <li>Política de privacidad</li>
+            <li>Contacto</li>
+            <li>Quiénes somos</li>
+        </ol>
     </footer>
-
 </body>
 
 </html>
