@@ -60,22 +60,22 @@ font-size: 14px;
 vertical-align: top;
 border: 2px solid black;
 }
-#Sudaderas{
+h2{
     text-align: center;
 }
-#Pantalones{
-    text-align: center;
-}
-#Accesorios{
-    text-align: center;
-}
-.Productos{
-    display: inline-block;
+.Productos article {
+  display: inline-block;   /* Se comporta en línea pero mantiene dimensiones */
+  width: 450px;            /* Ajusta según el tamaño que quieras */
+  margin: 2px;            /* Espacio entre productos */
+  vertical-align: top;     /* Para que se alineen por la parte superior */
 }
 article img{
     text-align: left;
     width: 500px;
     height: 500px; 
     object-fit: cover;
+    display: inline;
+}
+div{
     display: inline;
 }
