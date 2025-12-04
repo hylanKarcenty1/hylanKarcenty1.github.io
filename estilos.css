@@ -53,10 +53,11 @@ li{
 }
 
 .Portada{
-text-align: center;
-margin-left: 9px;
-width: 450px;
-height: 600px;
+width: 33%;
+display: inline-block;
+box-sizing: border-box;
+font-size: 14px;    
+vertical-align: top;
 border: 2px solid black;
 }
 #Sudaderas{
