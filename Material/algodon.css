@@ -4,6 +4,24 @@
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
 }
+  h1:nth-child(1){
+color: #1e3a8a;              
+    text-align: center;
+    font-size: 55px;         
+    font-weight: bold;         
+    text-transform: uppercase;   
+    margin: 20px 0;
+    
+
+    text-decoration: underline;
+    text-decoration-color: #09d598; 
+    text-decoration-thickness: 3px;
+
+
+    border: none;              
+    padding-bottom: 10px;
+    border-bottom: 3px solid #000; /* línea inferior elegante */
+  } 
 .clear {
   clear: both;
 }
