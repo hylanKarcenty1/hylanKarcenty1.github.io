@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  
+  background-color: white;
+  color: black;
+}
+  h1{
+color: #1e3a8a;              
+    text-align: center;
+    font-size: 55px;             /* un poco más grande */
+    font-weight: bold;           /* más fuerza en el título */
+    text-transform: uppercase;   /* todo en mayúsculas */
+    margin: 20px 0;
+    
+    /* Subrayado decorativo */
+    text-decoration: underline;
+    text-decoration-color: #09d598; /* subrayado verde aqua */
+    text-decoration-thickness: 3px;
+
+    /* Borde y sombra */
+    border: none;                /* quitamos el borde negro clásico */
+    padding-bottom: 10px;
+    border-bottom: 3px solid #000; /* línea inferior elegante */
+  } 
+  ul{
+    font-size: 0%;
+    padding: 0%;
+}
+li{
+    color: green;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.intro {
+  padding: 80px;
+}
+
+.titulo {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.texto {
+  display: inline-block;
+  width: 45%;
+  margin-left: 5%;
+  vertical-align: top;
+
+  font-size: 14px;
+  color: #888;
+  line-height: 1.8;
+}
+
+.texto p {
+  margin-bottom: 25px;
+  padding: 0px;
+  font-size: 15px;
+}
+
+.galeria {
+  padding: 0 80px 80px;
+}
+
+.galeria img {
+  float: left;
+  width: 30%;
+  height: 400px;
+  object-fit: cover;
+  margin-right: 2%;
+}
+
+
+.galeria img:last-child {
+  margin-right: 0;
+}
+
+.clear {
+  clear: both;
+}
+.navegacion{
+    background-color: white;       /* fondo blanco */
+    padding: 10px 0;               /* espacio arriba y abajo */
+    text-align: center;            /* centra los elementos */
+}
+.navegacion ul {
+    list-style: none;              /* quita viñetas */
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion li {
+    display: inline-block;         /* coloca los elementos en línea */
+    margin: 0 20px;                /* espacio entre enlaces */
+}
+.navegacion a{
+    font-size: 26px
+}
+.navegacion a:visited{
+    color: #1e3a8a;
+}
+.Migas-de-pan{
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    color: #09d598;
+  }
+  a, a:visited, a:hover, a:active {
+  color: #1e3a8a;   /* Tu color personalizado */
+  text-decoration: none; /* Quita el subrayado si quieres */
+}
