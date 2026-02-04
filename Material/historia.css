@@ -67,10 +67,10 @@ p,li{
    padding: 10px;
 }
 img{
-    display: block;
+    display: inline-block;
     margin: 0 auto;
     height: 600px;
-    width: 90%;
+    width: 700px;
     
 }
 
