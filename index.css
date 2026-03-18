@@ -39,6 +39,8 @@ li{
     list-style: none;              /* quita viñetas */
     margin: 0;
     padding: 0;
+    justify-content: space-around;
+    display: flex;
 }
 
 .navegacion li {
@@ -53,22 +55,24 @@ a, a:visited, a:hover, a:active {
     font-size: 26px
 }
 
-.Portada{
+.Portada{ /*Primeras 3 IMAGENES de Portadas*/ 
 width: 33%;
 display: inline-block;
 box-sizing: border-box;
 font-size: 14px;    
 vertical-align: top;
 border: 2px solid black;
+display: flex;
 }
 h2{
     text-align: center;
 }
 .Productos article {
-  display: inline-block;   /* Se comporta en línea pero mantiene dimensiones */
-  width: 450px;            /* Ajusta según el tamaño que quieras */
-  margin: 2px;            /* Espacio entre productos */
-  vertical-align: top;     /* Para que se alineen por la parte superior */
+  display: inline-block;   
+  width: 100%; 
+  height: auto;          
+  margin: 2px;            
+  vertical-align: top;     
 }
 article img{
     text-align: left;
@@ -77,6 +81,34 @@ article img{
     object-fit: cover;
     display: inline;
 }
-div{
-    display: inline;
+@media (max-width: 480px) {
+
+    /*TITULO*/ 
+  header h1{
+    text-align: center;
+    width: 100%;
+  }
+    /*NAVEGACIÓN*/ 
+  .navegacion ol {
+  flex-direction: column;
+  align-items: center;
 }
+
+  /* PORTADA */
+  .Portada {
+    flex-direction: column;
+    width: 100%;
+    display: block;
+    margin: 0 auto; 
+  }
+
+  /* PRODUCTOS */
+  .Productos article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+}
+
