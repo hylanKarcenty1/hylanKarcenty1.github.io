@@ -74,6 +74,16 @@ a:active {
   font-size: 26px;
 }
 
+/* Sección de bienvenida */
+.bienvenida {
+  text-align: center;
+  padding: 18px 20px;
+  background-color: #f0f4ff;
+  border-bottom: 2px solid #1e3a8a;
+  font-size: 20px;
+  color: #1e3a8a;
+}
+
 h2 {
   text-align: center;
 }
